@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Generator Frontend API</title>
+</head>
+<body>
+    <h1>Please enter the QR code link in the box below.</h1>
+    <input type="text" id="qrCodeInput" placeholder="Please enter your desired link to use for the QR code here.">
+    <p id="output"></p>
+    <h1>Please enter the size of the QR code you would like below</h1>
+    <h2>Eg. 100 would mean 100x100 pixels, use ONLY 1 NUMBER! Size MUST BE BETWEEN 1-1000</h2>
+    <input type="number" id="qrCodeSize" placeholder="Please type a SINGULAR number to indicate the size of the QR code, leave blank for 150x150">
+    <h2>Press the enter key when you've finished and you wish to view your QR Code.</h2>
+    <p id="output2"></p>
+    <script src="qrCode.js"></script>
+</body>
+</html>
