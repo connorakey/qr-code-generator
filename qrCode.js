@@ -6,8 +6,8 @@ const url = "localhost:3000";
 const qrLinkBox = document.getElementById('qrCodeInput');
 const qrLinkSize = document.getElementById('qrCodeSize');
 
-const output = document.getElementById('output');  // Ensure 'output' element exists
-const output2 = document.getElementById('output2');  // Ensure 'output2' element exists
+const output = document.getElementById('output');
+const output2 = document.getElementById('output2');
 
 qrLinkBox.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
