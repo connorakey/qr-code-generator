@@ -1,3 +1,10 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
 #qrCodeInput{
     padding: 20px;
     width: 580px;
