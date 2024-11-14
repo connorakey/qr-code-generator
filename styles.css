@@ -16,5 +16,7 @@ body {
     width: 580px;
     border-radius: 17px;
 }
-  
-  
+
+h1, h2 {
+    margin-bottom: 30px;
+}
