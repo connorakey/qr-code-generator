@@ -4,7 +4,7 @@ A simple, zero bloat, free and open source alternative to common QR Code Generat
 
 
 
-![IconScreenShot1](https://i.ibb.co/X73ZYM0/image.png)
+![IconScreenShot1](https://i.ibb.co/Bf2htzK/image.png)
 ## Screenshots
 
 ![Frontend Screenshot](https://i.ibb.co/qnZxg18/image.png)
