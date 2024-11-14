@@ -29,9 +29,10 @@ h2 {
     font-weight: normal;
 }
 
-#output {
+#output, #output2 {
     color: #fff;
 }
+
 
 #sourceCodeHyperLink{
     position: absolute;
