@@ -1,4 +1,4 @@
-# Connor's Code Generator
+# Connor's QR Code Generator
 
 A simple, zero bloat, free and open source alternative to common QR Code Generators. 
 
