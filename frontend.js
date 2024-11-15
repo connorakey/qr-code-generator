@@ -1,3 +1,4 @@
+// This file is incharge of hosting the frontend on the web.
 const { prototype } = require("events");
 const express = require("express");
 const path = require("path");

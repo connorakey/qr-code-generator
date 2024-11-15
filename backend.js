@@ -1,3 +1,4 @@
+// This file is incharge of hosting the backend and making sure the backend API queries are formatted correctly.
 const express = require('express');
 const QRCode = require('qrcode');
 
