@@ -2,8 +2,8 @@
 const frontend = require("./frontend.js");
 const backend = require("./backend.js");
 
-const enableElectron = true;
+const configuration = require('./configuration.json');
 
-if (enableElectron === true) {
-    require('./electron/electron.js')
-}
+if (configuration.electron === "true") {
+    require('./electron.js')
+};

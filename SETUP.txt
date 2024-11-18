@@ -19,3 +19,5 @@ If you wish to change the ports from :3000 (backend) / :3001 (front end), please
 Firstly, enter the configuration.json and ONLY change the ports.
 Secondly, enter qrCode.js and change the url to localhost:FRONTENDPORTHERE
 For example: if I changed my front end port to 2341 I would change it to localhost:2341
+
+If you want electron support please ensure it is enabled in configuration.json IF YOU DO NOT want any electron please disable it in configuration.json
