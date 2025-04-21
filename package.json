@@ -4,10 +4,8 @@
   "description": "Simple web based QR code generator without any bloat.",
   "main": "start.js",
   "scripts": {
-    "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "pack": "electron-packager . --overwrite --platform=win32 --arch=x64",
-    "build": "electron-builder"
+    "start": "node ./start.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -26,9 +24,6 @@
     "qrcode": "^1.5.4"
   },
   "devDependencies": {
-    "electron-builder": "^25.1.8",
-    "electron-packager": "^17.1.2",
-    "electron": "^33.2.0"
   },
   "build": {
     "appId": "com.connorakey.qrcodegenerator",

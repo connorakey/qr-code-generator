@@ -63,6 +63,26 @@ Start the server
   node .
 ```
 
+## Run with Docker (by creating image)
+
+Clone the project
+```bash
+    git clone https://github.com/connorakey/qr-code-generator
+```
+
+Go to project directory
+```bash
+    cd qr-code-generator
+```
+Build image
+```bash
+    docker build . -t qr-code-generator
+```
+Deploy image
+```bash
+    docker run -d -p 3000:3000 -p 3001:3001 --name qr-code-generator qr-code-generator
+```
+Ensure that the ports set in the docker run command are equal to the ports in the configuration.json file. The ports 3000 and 3001 ports are opened because of the backend and frontend websites.
 
 ## FAQ
 
@@ -77,6 +97,9 @@ Yes, you are allowed to edit the code as much as you want, but no support will b
 #### Am I allowed to reupload the code?
 Yes, you are allowed to but please fork the original repository.
 
+## DISCLAIMER!!
+I am not responsible for anything that goes wrong running this code, I do NOT recommend running it port forwarded as there may be security issues, I have not looked in to any security in this project, if you are running this I only recommend running it within your home network.
+
 
 ## Authors
 
@@ -84,3 +107,5 @@ Yes, you are allowed to but please fork the original repository.
 
 ## Thank you
 Thank you, Connor, 10th of November, 2024, Year 7
+
+Docker support added by Connor 21st of April 2025, Year 8
