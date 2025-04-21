@@ -3,7 +3,3 @@ const frontend = require("./frontend.js");
 const backend = require("./backend.js");
 
 const configuration = require('./configuration.json');
-
-if (configuration.electron === "true") {
-    require('./electron.js')
-};
