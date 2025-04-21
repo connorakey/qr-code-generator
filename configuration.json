@@ -1,5 +1,4 @@
 {
-    "electron": "true",
     "port": "3000",
     "frontend_port": "3001"
 }
