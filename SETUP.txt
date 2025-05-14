@@ -5,6 +5,8 @@ Front end,
 Basic HTML website, made to configure with your own style!
 Zero obfuscated/hidden Code
 
+Prerequisites: nodejs, installation instructions followed. 
+
 The back end is incharge of showing the QR code, feel free to use this with other projects, the utilisation of the back end is very simple and is utilised like this:
 https://localhost:PORT/generate?link=LINKHERE&size=SIZEHERE
 
@@ -12,12 +14,11 @@ Make sure the size is a singular number this will make it YxY for example if the
 
 
 
-To setup the project you will need to enter 2 files, the qrCode.js and the configuration.json
+To setup the project you will need to enter 1 file, configuration.json
 
-If you wish to change the ports from :3000 (backend) / :3001 (front end), please follow the instructions below.
+If you wish to change the ports from :3000 (backend) / :3001 (front end), please follow the instructions below. 
+OR change the redirection url to something that isnt localhost
 
 Firstly, enter the configuration.json and ONLY change the ports.
-Secondly, enter qrCode.js and change the url to localhost:FRONTENDPORTHERE
-For example: if I changed my front end port to 2341 I would change it to localhost:2341
-
-If you want electron support please ensure it is enabled in configuration.json IF YOU DO NOT want any electron please disable it in configuration.json
+Secondly, in configuration.json edit the url to your ip/domain if applicable 
+For example: if I changed my front end port to 2341 I would change it to localhost:2343
