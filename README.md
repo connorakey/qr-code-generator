@@ -86,6 +86,10 @@ Ensure that the ports set in the docker run command are equal to the ports in th
 
 ## FAQ
 
+#### My users automatically get directed to localhost when the front end is used
+
+To change the destination URL you must change the URL in configuration.json to your domain / ip
+
 #### How do  I change the ports of the front end and backend?
 
 To change the ports enter the configuration.json and change the backend/front end ports to your desire, then enter backend.js and change the backend port.
