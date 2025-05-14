@@ -1,7 +1,7 @@
 
 // This file is incharge of communicating the front end and backend together
 
-const url = "localhost:3000";
+const url = require(./configuration.json).url
 
 
 const qrLinkBox = document.getElementById('qrCodeInput');
