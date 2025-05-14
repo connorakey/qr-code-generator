@@ -102,7 +102,7 @@ Yes, you are allowed to edit the code as much as you want, but no support will b
 Yes, you are allowed to but please fork the original repository.
 
 ## DISCLAIMER!!
-I am not responsible for anything that goes wrong running this code, I do NOT recommend running it port forwarded may cause security issues and vulnerabilities.
+I am not responsible for anything that goes wrong running this code, running it port forwarded may cause security issues and vulnerabilities.
 
 
 ## Authors
